@@ -1,5 +1,5 @@
 # -*- python -*-
-# Copyright (C) 2009-2019 Free Software Foundation, Inc.
+# Copyright (C) 2009-2020 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ import gdb
 import os
 import os.path
 
-pythondir = '/drone/src/builder/aarch64-linux-gnu/share/gcc-9.4.1/python'
+pythondir = '/drone/src/builder/aarch64-linux-gnu/share/gcc-10.3.1/python'
 libdir = '/drone/src/builder/aarch64-linux-gnu/aarch64-linux-gnu/lib/../lib64'
 
 # This file might be loaded when there is no current objfile.  This
